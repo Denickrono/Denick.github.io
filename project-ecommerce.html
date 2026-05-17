@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform - Project Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">AM</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="project-detail">
+        <div class="container">
+            <a href="projects.html" class="back-link">← Back to all projects</a>
+            
+            <div class="project-header">
+                <h1>E-Commerce Platform</h1>
+                <div class="project-links">
+                    <a href="#" class="btn btn-small">Live Demo</a>
+                    <a href="#" class="btn btn-small">GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="project-content">
+                <section class="project-section">
+                    <h2>Project Overview</h2>
+                    <p>A full-featured e-commerce platform that allows users to browse products, add items to cart, make payments, and track orders. Includes admin dashboard for inventory management and analytics.</p>
+                    <p><strong>Role:</strong> Lead Full-Stack Developer</p>
+                    <p><strong>Timeline:</strong> 3 months</p>
+                    <p><strong>Team Size:</strong> 4 developers</p>
+                </section>
+
+                <section class="project-section">
+                    <h2>Technologies Used</h2>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React 18</span>
+                        <span class="tech-badge">Redux Toolkit</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Express</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Stripe API</span>
+                        <span class="tech-badge">JWT Authentication</span>
+                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">Docker</span>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li>User authentication (register/login with JWT)</li>
+                        <li>Product browsing with search and filters</li>
+                        <li>Shopping cart with quantity management</li>
+                        <li>Secure payment processing with Stripe</li>
+                        <li>Order history and tracking</li>
+                        <li>Admin panel for product management</li>
+                        <li>Responsive design for mobile/tablet</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Challenges & Solutions</h2>
+                    <div class="challenge-solution">
+                        <h3>Challenge 1: Cart State Management</h3>
+                        <p>Persisting cart items across page refreshes was complex with multiple product variations.</p>
+                        <p><strong>Solution:</strong> Implemented Redux with localStorage persistence and normalized state structure.</p>
+                    </div>
+                    <div class="challenge-solution">
+                        <h3>Challenge 2: Payment Security</h3>
+                        <p>Ensuring PCI compliance and secure payment processing was critical.</p>
+                        <p><strong>Solution:</strong> Used Stripe Elements with client-side tokenization; never handled raw card data.</p>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2>Results & Impact</h2>
+                    <ul>
+                        <li>Successfully launched with 500+ registered users in first month</li>
+                        <li>Processing $10,000+ in monthly transactions</li>
+                        <li>99.9% uptime with automated deployment</li>
+                        <li>40% faster load times compared to previous version</li>
+                    </ul>
+                </section>
+
+                <section class="project-section">
+                    <h2>Screenshots</h2>
+                    <div class="screenshot-placeholder">
+                        <p>[Screenshot 1: Homepage]</p>
+                        <p style="color:#666; font-size:14px;">*Add actual screenshots to images/ folder*</p>
+                    </div>
+                </section>
+
+                <section class="project-section">
+                    <h2>Future Improvements</h2>
+                    <ul>
+                        <li>Add product reviews and ratings</li>
+                        <li>Implement wishlist feature</li>
+                        <li>Add AI-powered product recommendations</li>
+                        <li>Integrate with more payment providers</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Mitchell. Built with HTML/CSS and hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
