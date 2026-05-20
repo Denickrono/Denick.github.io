@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fafafa;
+    color: #2d3e2d;
+    background-color: #f5faf5;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: #2563eb;
+    color: #4caf50;
 }
 
 .nav-links {
@@ -50,18 +50,18 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #666;
+    color: #4a5b4a;
     transition: color 0.3s;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #2563eb;
+    color: #4caf50;
 }
 
-/* Hero Section */
+/* Hero Section - Light Green Gradient */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4caf50 0%, #81c784 100%);
     color: white;
     padding: 80px 0;
 }
@@ -116,7 +116,7 @@ body {
     font-size: 4rem;
 }
 
-/* Buttons */
+/* Buttons - Light Green Theme */
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -128,7 +128,7 @@ body {
 
 .btn-primary {
     background-color: white;
-    color: #667eea;
+    color: #4caf50;
 }
 
 .btn-primary:hover {
@@ -144,14 +144,18 @@ body {
 
 .btn-secondary:hover {
     background-color: white;
-    color: #667eea;
+    color: #4caf50;
 }
 
 .btn-small {
     padding: 8px 20px;
     font-size: 0.9rem;
-    background-color: #2563eb;
+    background-color: #4caf50;
     color: white;
+}
+
+.btn-small:hover {
+    background-color: #45a049;
 }
 
 /* Sections */
@@ -160,14 +164,14 @@ body {
 }
 
 .bg-light {
-    background-color: #f3f4f6;
+    background-color: #e8f5e9;
 }
 
 .section-title {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 3rem;
-    color: #1f2937;
+    color: #2d3e2d;
 }
 
 /* About */
@@ -182,7 +186,7 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Timeline (Experience) */
+/* Timeline (Projects) */
 .timeline {
     max-width: 800px;
     margin: 0 auto;
@@ -201,17 +205,17 @@ body {
 
 .timeline-date {
     font-weight: bold;
-    color: #2563eb;
+    color: #4caf50;
 }
 
 .timeline-content h3 {
     margin-bottom: 0.5rem;
-    color: #1f2937;
+    color: #2d3e2d;
 }
 
 .timeline-content h4 {
     margin-bottom: 1rem;
-    color: #6b7280;
+    color: #6b8c6b;
 }
 
 .timeline-content ul {
@@ -221,7 +225,7 @@ body {
 /* Skills */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
 }
 
@@ -234,7 +238,7 @@ body {
 
 .skill-category h3 {
     margin-bottom: 1rem;
-    color: #2563eb;
+    color: #4caf50;
 }
 
 .skill-list {
@@ -243,7 +247,8 @@ body {
 
 .skill-list li {
     display: inline-block;
-    background: #e5e7eb;
+    background: #e8f5e9;
+    color: #2d3e2d;
     padding: 5px 12px;
     margin: 0 5px 10px 0;
     border-radius: 20px;
@@ -261,12 +266,12 @@ body {
 }
 
 .education-card h3 {
-    color: #1f2937;
+    color: #2d3e2d;
     margin-bottom: 0.5rem;
 }
 
 .education-card h4 {
-    color: #6b7280;
+    color: #6b8c6b;
     margin-bottom: 1rem;
 }
 
@@ -279,6 +284,7 @@ body {
 
 .contact-info h3 {
     margin-bottom: 1rem;
+    color: #2d3e2d;
 }
 
 .contact-details {
@@ -296,8 +302,12 @@ body {
 }
 
 .social-links a {
-    color: #2563eb;
+    color: #4caf50;
     text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
 }
 
 .contact-form {
@@ -309,20 +319,27 @@ body {
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #c8e6c9;
     border-radius: 5px;
     font-family: inherit;
+    background: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #4caf50;
 }
 
 .form-note {
     font-size: 0.8rem;
-    color: #6b7280;
+    color: #6b8c6b;
     text-align: center;
 }
 
 /* Footer */
 .footer {
-    background: #1f2937;
+    background: #2d3e2d;
     color: white;
     text-align: center;
     padding: 2rem 0;
@@ -331,7 +348,7 @@ body {
 
 /* Projects Page */
 .page-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #4caf50 0%, #81c784 100%);
     color: white;
     padding: 60px 0;
     text-align: center;
@@ -369,11 +386,11 @@ body {
 
 .project-card h3 {
     margin-bottom: 0.5rem;
-    color: #1f2937;
+    color: #2d3e2d;
 }
 
 .project-card p {
-    color: #6b7280;
+    color: #6b8c6b;
     margin-bottom: 1rem;
 }
 
@@ -385,7 +402,8 @@ body {
 }
 
 .project-tech span {
-    background: #e5e7eb;
+    background: #e8f5e9;
+    color: #2d3e2d;
     padding: 4px 10px;
     border-radius: 15px;
     font-size: 0.75rem;
@@ -399,8 +417,12 @@ body {
 .back-link {
     display: inline-block;
     margin-bottom: 2rem;
-    color: #2563eb;
+    color: #4caf50;
     text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
 }
 
 .project-header {
@@ -409,12 +431,12 @@ body {
     align-items: center;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #e5e7eb;
+    border-bottom: 2px solid #c8e6c9;
 }
 
 .project-header h1 {
     font-size: 2.5rem;
-    color: #1f2937;
+    color: #2d3e2d;
 }
 
 .project-links {
@@ -429,7 +451,7 @@ body {
 .project-section h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: #1f2937;
+    color: #2d3e2d;
 }
 
 .tech-stack {
@@ -439,7 +461,7 @@ body {
 }
 
 .tech-badge {
-    background: #2563eb;
+    background: #4caf50;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -447,23 +469,23 @@ body {
 }
 
 .challenge-solution {
-    background: #f3f4f6;
+    background: #e8f5e9;
     padding: 1.5rem;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
 
 .challenge-solution h3 {
-    color: #2563eb;
+    color: #4caf50;
     margin-bottom: 0.5rem;
 }
 
 .screenshot-placeholder {
-    background: #f3f4f6;
+    background: #e8f5e9;
     padding: 3rem;
     text-align: center;
     border-radius: 8px;
-    border: 2px dashed #d1d5db;
+    border: 2px dashed #c8e6c9;
 }
 
 /* Responsive Design */
